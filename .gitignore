@@ -1,0 +1,18 @@
+# Python / scientific junk
+__pycache__/
+*.pyc
+
+# Data & figures
+*.csv
+*.dat
+*.npy
+figures/
+results/
+
+# LaTeX
+*.aux
+*.log
+*.out
+
+# OS
+.DS_Store

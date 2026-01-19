@@ -1,0 +1,30 @@
+# --- R / RStudio ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+*.rds
+*.RDS
+
+# --- OS / editor ---
+__MACOSX/
+._*
+Thumbs.db
+.vscode/
+.idea/
+*~
+*.swp
+
+# --- R CMD check / builds ---
+*.Rcheck/
+*.tar.gz
+
+# --- Logs ---
+*.log
+
+# --- Optional: large generated artifacts ---
+# results/*.csv
+# figures/*.pdf
+# figures/*.png
+.DS_Store

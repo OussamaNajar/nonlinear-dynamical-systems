@@ -1,18 +1,17 @@
-# Python / scientific junk
+# OS junk
+.DS_Store
+__MACOSX/
+._*
+
+# R junk
+*.Rhistory
+*.RData
+
+# Python (future-proofing)
 __pycache__/
 *.pyc
 
-# Data & figures
-*.csv
-*.dat
-*.npy
-figures/
-results/
-
-# LaTeX
+# LaTeX build artifacts (keep PDFs)
 *.aux
 *.log
 *.out
-
-# OS
-.DS_Store

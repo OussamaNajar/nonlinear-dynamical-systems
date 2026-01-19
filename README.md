@@ -7,8 +7,7 @@ Research-grade computational studies of **nonlinear dynamical systems** focused 
 - **model-based + data-driven analysis**
 
 This repository is **methods-first**: each study is organized around transferable tooling
-(e.g., simulation, parameter sweeps, stability diagnostics, regime detection), with
-applications spanning ecology and finance.
+(e.g., simulation, parameter sweeps, stability diagnostics, regime detection), with extensions to other domains (e.g. finance, control, climate).
 
 ---
 
@@ -26,25 +25,23 @@ This repo is built to answer: **what is structurally predictable, what is not, a
 
 ## Structure
 
-- `ecology/`  
-  Ecological population dynamics and tri-trophic food-chain models (oscillations, chaos, bifurcation-like behavior).
-
-- `finance/` 
-  Regime-aware time series studies and predictability diagnostics for market-like systems (structure-first, not “alpha hype”).
+- `ecology/`
+  Ecological population dynamics and tri-trophic food-chain models (oscillations, chaos, regime shifts).
 
 Each study is self-contained with:
-- `src/` code
-- `experiments/` parameter sweeps/configs
+- `R/` or `src/` code
+- `scripts/` runnable entrypoints
+- `results/` generated outputs
 - `figures/` generated plots
-- `paper/` report/manuscript-quality writeup
-- `README.md` explaining results, assumptions, and how to reproduce
+- `paper/` manuscript-quality writeup
+- `README.md` explaining results, assumptions, and reproduction steps
 
 ---
 
 ## Featured study
 
 ### Tri-Trophic Ecological Dynamics (Hastings–Powell family)
-Location: `ecology/tri_trophic_dynamics/`
+Location: `ecology/tritrophic-early-warning/`
 
 A computational study of a nonlinear tri-trophic food-chain model emphasizing:
 - attractor geometry and long-run behavior
@@ -61,9 +58,5 @@ Each study directory contains its own `README.md` with:
 - how to run simulations
 - how to reproduce figures and summary results
 
----
 
-## Context
 
-Parts of this work were developed during graduate training in scientific computing and ecological modeling.
-All artifacts included here are curated to be **standalone, reproducible, and industry-readable**.

@@ -1,0 +1,126 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+
+title: "Early Warning Signals in Tri-Trophic Dynamics via Empirical Dynamic Modeling"
+
+authors:
+  - family-names: "Najar"
+    given-names: "Mohamed Oussama"
+    affiliation: "University of California, Santa Cruz"
+
+abstract: >
+  Equation-free early warning system for regime shifts in nonlinear dynamical systems
+  using Empirical Dynamic Modeling. Demonstrates stability loss detection via variance-based
+  indicators and predictability diagnostics under slow parameter forcing in a Hastings–Powell
+  tri-trophic food-chain model. Demonstrates that early warning can be achieved even in systems
+  with near-linear dynamics and high baseline predictability.
+
+keywords:
+  - dynamical systems
+  - early warning signals
+  - empirical dynamic modeling
+  - time series analysis
+  - regime shifts
+  - bifurcation detection
+  - forecasting
+  - ecological modeling
+
+license: MIT
+version: 1.0.0
+date-released: 2026-01-15
+
+url: "https://github.com/OussamaNajar/tritrophic-early-warning"
+repository-code: "https://github.com/OussamaNajar/tritrophic-early-warning"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Najar"
+      given-names: "Mohamed Oussama"
+  title: "Early Warning Signals in Tri-Trophic Dynamics via Empirical Dynamic Modeling"
+  year: 2025
+  url: "https://github.com/OussamaNajar/tritrophic-early-warning"
+
+references:
+  - type: article
+    authors:
+      - family-names: "Sugihara"
+        given-names: "George"
+      - family-names: "May"
+        given-names: "Robert M."
+    title: "Nonlinear forecasting as a way of distinguishing chaos from measurement error in time series"
+    journal: "Nature"
+    volume: 344
+    year: 1990
+    start: 734
+    end: 741
+    doi: "10.1038/344734a0"
+
+  - type: article
+    authors:
+      - family-names: "Sugihara"
+        given-names: "George"
+      - family-names: "May"
+        given-names: "Robert"
+      - family-names: "Ye"
+        given-names: "Hao"
+      - family-names: "Hsieh"
+        given-names: "Chih-hao"
+      - family-names: "Deyle"
+        given-names: "Ethan"
+      - family-names: "Fogarty"
+        given-names: "Michael"
+      - family-names: "Munch"
+        given-names: "Stephan"
+    title: "Detecting causality in complex ecosystems"
+    journal: "Science"
+    volume: 338
+    year: 2012
+    start: 496
+    end: 500
+    doi: "10.1126/science.1227079"
+
+  - type: article
+    authors:
+      - family-names: "Ye"
+        given-names: "Hao"
+      - family-names: "Sugihara"
+        given-names: "George"
+    title: "Information leverage in interconnected ecosystems: Overcoming the curse of dimensionality"
+    journal: "Science"
+    volume: 353
+    year: 2016
+    start: 922
+    end: 925
+    doi: "10.1126/science.aag0863"
+
+  - type: article
+    authors:
+      - family-names: "Dakos"
+        given-names: "Vasilis"
+      - family-names: "Carpenter"
+        given-names: "Stephen R."
+      - family-names: "Brock"
+        given-names: "William A."
+      - family-names: "Ellison"
+        given-names: "Aaron M."
+      - family-names: "Guttal"
+        given-names: "Vishwesha"
+      - family-names: "Ives"
+        given-names: "Anthony R."
+      - family-names: "Kéfi"
+        given-names: "Sonia"
+      - family-names: "Livina"
+        given-names: "Valerie"
+      - family-names: "Seekell"
+        given-names: "David A."
+      - family-names: "van Nes"
+        given-names: "Egbert H."
+      - family-names: "Scheffer"
+        given-names: "Marten"
+    title: "Methods for detecting early warnings of critical transitions in time series illustrated using simulated ecological data"
+    journal: "PLoS ONE"
+    volume: 7
+    year: 2012
+    start: e41010
+    doi: "10.1371/journal.pone.0041010"

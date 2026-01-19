@@ -230,13 +230,3 @@ MIT License - see `LICENSE` file for details.
 
 **Author:** Mohamed Oussama Najar  
 **Institution:** UC Santa Cruz, Department of Applied Mathematics
-
-For questions or contributions:
-- Open an issue on GitHub
-- Pull requests welcome
-
-This project was completed as part of graduate coursework in Scientific Computing and Applied Mathematics at UC Santa Cruz, integrating methods from:
-- **AM 170A/B** (Mathematical Modeling)
-- **BIOE 215** (Advanced Ecological Modeling)  
-- **AM 216** (Stochastic Differential Equations)
-- **AM 213B** (Numerical Methods for PDEs/ODEs)

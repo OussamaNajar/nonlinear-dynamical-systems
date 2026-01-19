@@ -39,6 +39,7 @@ Each study is self-contained with:
 ---
 
 ## Featured study
+![Tri-trophic early-warning summary](ecology/tritrophic-early-warning/figures/11_summary_panel.png)
 
 ### Tri-Trophic Ecological Dynamics (Hastings–Powell family)
 Location: `ecology/tritrophic-early-warning/`

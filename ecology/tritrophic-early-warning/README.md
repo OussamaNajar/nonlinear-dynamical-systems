@@ -11,7 +11,7 @@ A **fully reproducible R pipeline** that simulates a forced Hastings–Powell tr
 2. Detect an empirical transition time (t\*) using rolling SD of **Z(t)** (variance proxy).
 
 
-**EDM diagnostics (post-drift segment)**
+** EDM diagnostics (post-drift segment) **
 3. Global **Simplex** baselines (h = 1 and h = 10).
 4. Global **S-map** theta sweep (state dependence check).
 5. Sliding-window **Simplex** skill (h = 1 and h = 10).

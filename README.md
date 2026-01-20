@@ -39,7 +39,7 @@ Each study is self-contained with:
 ---
 
 ## Featured study
-![Tri-trophic early-warning summary](ecology/tritrophic-early-warning/figures/11_summary_panel.png)
+
 
 ### Tri-Trophic Ecological Dynamics (Hastings–Powell family)
 Location: `ecology/tritrophic-early-warning/`
@@ -49,7 +49,8 @@ A computational study of a nonlinear tri-trophic food-chain model emphasizing:
 - parameter sensitivity and regime transitions
 - predictability limits under perturbations
 - interpretation for management / decision context
-
+  
+![Tri-trophic early-warning summary](ecology/tritrophic-early-warning/figures/11_summary_panel.png)
 ---
 
 ## Reproducibility

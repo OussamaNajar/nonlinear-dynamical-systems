@@ -19,6 +19,7 @@ A **fully reproducible R pipeline** that simulates a forced Hastings–Powell tr
 6. Sliding-window **S-map**: theta\_opt(t), Δρ(t), and slope summaries b(t).
 
 **Robustness**
+
 7. Sensitivity grid over detection window **w** × EDM window length **W**.
 
 ---

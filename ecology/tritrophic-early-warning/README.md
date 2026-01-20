@@ -2,11 +2,6 @@
 
 A **fully reproducible R pipeline** that simulates a forced Hastings–Powell tri-trophic food chain and tests whether **EDM diagnostics** provide **early warning** of an impending stability loss (equilibrium → sustained oscillations) using **only one observed variable** (top predator **Z**).
 
-This project is designed to be:
-- **Scientifically defensible** (mechanistic forcing + out-of-sample EDM + sensitivity analysis)
-- **Recruiter-friendly** (one-command run, clear outputs, clean structure)
-- **Honest** (reports sensitivity; avoids overstated claims)
-
 ---
 
 ## What this repository does

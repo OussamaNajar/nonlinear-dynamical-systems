@@ -8,7 +8,8 @@ A **fully reproducible R pipeline** that simulates a forced Hastings–Powell tr
 
 **Mechanistic experiment**
 1. Simulate a tri-trophic ODE with slow drift in interaction strength **c2(t)**.
-2. Detect an empirical transition time **t\* (t^{\ast})** using rolling SD of **Z(t)** (variance proxy).
+2. Detect an empirical transition time **(t\*) ** using rolling SD of **Z(t)** (variance proxy).
+
 
 **EDM diagnostics (post-drift segment)**
 3. Global **Simplex** baselines (h = 1 and h = 10).

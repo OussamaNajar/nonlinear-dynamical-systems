@@ -1,64 +1,124 @@
-# Nonlinear Dynamical Systems
+# Nonlinear Dynamical Systems — Scientific Machine Learning & Regime Shifts
 
 Research-grade computational studies of **nonlinear dynamical systems** focused on:
-- **stability & attractor structure**
-- **predictability limits** (sensitivity to initial conditions / noise)
-- **regime behavior & transitions**
-- **model-based + data-driven analysis**
 
-This repository is **methods-first**: each study is organized around transferable tooling
-(e.g., simulation, parameter sweeps, stability diagnostics, regime detection), with extensions to other domains (e.g. finance, control, climate).
+- Stability and attractor structure  
+- Predictability limits (chaos, noise, sensitivity)  
+- Regime behavior and critical transitions  
+- Equation-based simulation combined with data-driven analysis  
 
----
-
-## Why this matters
-
-Many real systems—ecosystems, markets, climate, engineered control loops—share the same hard problems:
-- nonlinear feedback creates multi-regime behavior
-- prediction skill collapses beyond a horizon (chaos / noise)
-- distribution shift/regime change dominates error
-- “better fitting” is not the same as “more predictable”
-
-This repo is built to answer: **what is structurally predictable, what is not, and why**.
+This repository is **methods-first**: each study is organized around transferable tools for simulation, parameter sweeps, stability diagnostics, and regime-shift detection.
 
 ---
 
-## Structure
+## Start Here (Flagship Project)
 
-- `ecology/`
-  Ecological population dynamics and tri-trophic food-chain models (oscillations, chaos, regime shifts).
+If you only look at one thing in this repository, start with the flagship study:
 
-Each study is self-contained with:
-- `R/` or `src/` code
-- `scripts/` runnable entrypoints
-- `results/` generated outputs
-- `figures/` generated plots
-- `paper/` manuscript-quality writeup
-- `README.md` explaining results, assumptions, and reproduction steps
+### **Tri-Trophic Regime Shifts and Early-Warning Detection**
+📁 `ecology/tritrophic-early-warning/`
 
----
+This project implements an **end-to-end, reproducible pipeline** to:
 
-## Featured study
+- Simulate nonlinear tri-trophic population dynamics
+- Analyze attractor geometry and long-run behavior
+- Quantify predictability collapse approaching regime transitions
+- Evaluate early-warning indicators directly from time series (equation-free)
 
+### Quickstart (Reproduce One Main Result)
 
-### Tri-Trophic Ecological Dynamics (Hastings–Powell family)
-Location: `ecology/tritrophic-early-warning/`
+```bash
+git clone https://github.com/OussamaNajar/nonlinear-dynamical-systems.git
+cd nonlinear-dynamical-systems/ecology/tritrophic-early-warning
+Rscript scripts/run_pipeline.R
+```
 
-A computational study of a nonlinear tri-trophic food-chain model emphasizing:
-- attractor geometry and long-run behavior
-- parameter sensitivity and regime transitions
-- predictability limits under perturbations
-- interpretation for management / decision context
-  
+**Runtime:** ~3-4 minutes  
+**Dependencies:** R (≥4.1) + `deSolve` package only
+
+### Key Results (Summary)
+
+- **Predictability horizon collapses** as the system approaches a regime transition
+- **Early-warning indicators rise consistently** prior to critical transitions across parameter sweeps
+- Results are **robust to noise and perturbations** within tested regimes
+
 ![Tri-trophic early-warning summary](ecology/tritrophic-early-warning/figures/11_summary_panel.png)
+
+➡️ **Full technical documentation, assumptions, and reproduction details:**  
+[ecology/tritrophic-early-warning/README.md](ecology/tritrophic-early-warning/README.md)
+
+---
+
+## Why This Matters
+
+Many real systems — ecosystems, markets, climate, engineered control loops — share the same fundamental difficulties:
+
+- Nonlinear feedback produces multi-regime behavior
+- Prediction skill degrades sharply beyond a horizon
+- Regime change dominates error more than model misspecification
+- Better curve-fitting does not imply greater predictability
+
+This repository is built to answer a concrete question:
+
+**What aspects of a nonlinear system are structurally predictable, what are not, and why?**
+
+---
+
+## Repository Structure
+
+```
+nonlinear-dynamical-systems/
+├── ecology/
+│   └── tritrophic-early-warning/
+│       ├── README.md        # full technical documentation
+│       ├── scripts/         # runnable analysis entrypoints
+│       ├── R/               # modular functions
+│       ├── results/         # generated outputs
+│       ├── figures/         # generated plots
+│       └── paper/           # manuscript-quality writeup
+```
+
+Each study directory is self-contained and includes:
+
+- Runnable code (`R/`, `src/`, or `scripts/`)
+- Generated outputs and figures
+- Explicit reproduction instructions
+- Documented assumptions and interpretation
+
+---
+
+## Featured Study: Tri-Trophic Ecological Dynamics
+
+**Hastings–Powell Family**
+
+A computational study of nonlinear tri-trophic food-chain models emphasizing:
+
+- Attractor geometry and long-run dynamics
+- Parameter sensitivity and regime transitions
+- Predictability limits under perturbations
+- Interpretation in a management/decision-making context
+
 ---
 
 ## Reproducibility
 
+All figures and results are generated from code. No manual post-processing is required.
+
 Each study directory contains its own `README.md` with:
-- environment requirements
-- how to run simulations
-- how to reproduce figures and summary results
 
+- Environment requirements
+- Step-by-step execution instructions
+- Expected outputs and diagnostics
 
+---
 
+## Notes for Reviewers and Recruiters
+
+This repository is organized to reflect **research and modeling workflows**, not coursework.
+
+Emphasis is placed on **stability, predictability, and failure modes**, not just fitting accuracy.
+
+The flagship project demonstrates the full pipeline from **simulation → diagnostics → interpretation**.
+
+**For a technical deep dive, start with:**  
+[ecology/tritrophic-early-warning/README.md](ecology/tritrophic-early-warning/README.md)
